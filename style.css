@@ -1,0 +1,117 @@
+.body_background{
+    background-image:url("background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    font-family:cursive;
+    font: weight 1000px;
+    font-size:50px;
+    font-stretch: expanded;
+    color:rgb(43, 1, 82);
+    font-display: table;
+    border-style:groove;
+    border-width:10px;
+    border-radius:25px;
+}
+.container{
+    background-color:aquamarine;
+    border-style:groove;
+    margin:10px;
+    padding:10px;
+    width: 400px;
+}
+#htmlofchat{
+    background-image: linear-gradient(to right top, orange, red, purple, blue, red, red);
+    background-repeat: none;
+}
+#bodyofcps{
+    background-image:url("blakiston fish owl crease pattern.jpeg");
+}
+
+img{
+    transition: 3s;
+    height:500px;
+    width:700px;
+}
+
+img:hover{
+    transform:scale(0.6);
+}
+
+body{
+    font-family:'Crimson Pro', sans-serif;
+    font-weight:400;
+    margin:0;
+}
+
+header{
+    top:5px;
+    background: #000;
+    height:50px;
+}
+
+header::after{
+    content: ' ';
+    display:table;
+    clear:both;
+}
+
+.logo{
+    float:left;
+    padding: 40px 0;
+}
+
+nav{
+    float:right;
+}
+
+nav ul{
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+}
+
+nav li{
+    display:inline-block;
+    margin-left: 70px;
+    padding-left: 23px;
+    position:relative;
+    font-size:20px;
+}
+
+nav a{
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:40px;
+}
+
+nav a:hover{
+    color:#fff;
+}
+
+nav a::before{
+    content: ' ';
+    display: block;
+    height: 5px;
+    background-color: #fff;
+    position:absolute;
+    top:7px;
+    width:0%;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width:100%;
+}
+
+#button6{
+    margin:6px;
+    font-size:14px;
+}
+
+#origamitag{
+    font-size: 38px;
+}
